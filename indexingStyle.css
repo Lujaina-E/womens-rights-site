@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Times New Roman', cursive;
+    text-align: center;
+    background-color: linen;
+}
+
+body > h1{
+    color: darkslateblue;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#subtitle{
+    color: maroon;
+}
+#intention{
+    color: rosybrown;
+}
+
+body > main > h4{
+    color: midnightblue;
+}
