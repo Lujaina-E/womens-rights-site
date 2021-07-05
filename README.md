@@ -13,3 +13,4 @@ TODO
 - get a form for inputting ideas for other female known people to put up in the gallery
 - subscription form for substack
 - Placing a logo in the header
+- Shoving in a bit of JS
