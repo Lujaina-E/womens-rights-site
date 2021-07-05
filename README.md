@@ -9,4 +9,5 @@ TODO
 - edit all other pages but the founder page to be better styling
 - get a CSS file rather than styling inline
 - get a form for inputting ideas for other female known people to put up in the gallery
+- subscription form for substack
 
