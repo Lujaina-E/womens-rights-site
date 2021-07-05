@@ -1,7 +1,9 @@
 # Sample-Website
 //rewrite this later...
 
+See it here
 
+<a href="https://lujaina-e.github.io/Sample-Website/index.html">Website </a>
 
 TODO
 - change the design of gallery to reflect articles, each corresponding to own page.
