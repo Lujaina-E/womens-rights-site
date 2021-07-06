@@ -6,11 +6,9 @@ See it here
 <a href="https://lujaina-e.github.io/Sample-Website/index.html">Website </a>
 
 TODO
-- change the design of gallery to reflect articles, each corresponding to own page.
-- get the website deployed...github pages? aws? idk just make it accessibel and with a link on this page. 
-- edit all other pages but the founder page to be better styling
+- change the design of gallery to reflect articles, each witha specific border and in an orderly scroll fashion
+- edit all other pages like the founder page ... better styling
 - get a CSS file rather than styling inline
-- get a form for inputting ideas for other female known people to put up in the gallery
-- subscription form for substack
+- gallery form works... (http error 405)
 - Placing a logo in the header
-- Shoving in a bit of JS
+- Shove in a bit of JS
