@@ -11,4 +11,4 @@ TODO
 - get a CSS file rather than styling inline
 - gallery form works... (http error 405)
 - Placing a logo in the header
-- Shove in a bit of JS
+- Shove in a bit of JS   ===> NAVBAR (make it pretty)
