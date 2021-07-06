@@ -3,7 +3,35 @@
     <head>
         <title>gallery</title>
     </head>
-    <h4 style="text-align: left;"><a href="index.html">Back</a></h4>
+
+    <style>
+    .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #012613;
+    }
+
+
+    .button1:hover {
+        background-color: #012613;
+        color: white;
+    }
+
+    </style>
+
+    <h4 style="text-align: left;"><a href="indexing.html">Back to main</a></h4>
     <body style="text-align: center; font-family: times new roman; background-color: lavender">
         <h1 style="color: goldenrod;"> GALLERY OF INSPIRATION- How Women have Changed the World </h1>
         <hr> <hr>
@@ -33,19 +61,18 @@
         on the issues of this world. She can be reached on Instagram at @malala </p>
         <h3 style="color: indianred;">GRETA THUNBERG</h3><hr>
         <img style="width: 300px; length: 300px;" src="greta.jpg" alt="A picture of Greta Thunberg">
-        <p>A mere 17 year old Swedith activist, Greta Thunberg inspired and pbrought forth much of the global
+        <p>A mere 17 year old Swedith activist, Greta Thunberg inspired and brought forth much of the global
         issues surrounding climate change to light, earning herself the Right Livelihood award, also known as
-        the alternate Nobel Peace Prizem and other presitgigous awards. Having addressed the UN on the topic
+        the alternate Nobel Peace Prizem and other prestigious awards. Having addressed the UN on the topic
         of ugrent matter of climate change, Great has faced much support from millions around the world,
         initating and inspiring mnay climate strikes. She is an inspiration to all those who pursue a cleaner
         Earth and are putting forth all efforts towards the climate change crisis. However, recalling Donald
-        Trump's tweet regarding Greta suggesting that she needs to "chill and watch a good old-fashioned move
-        with a friend," himsef and many political leaders in our society view her as a danger to society (to
-        which she hilariously replied to using her Twitter bio, if I may!), likely because of the impact she
-        has had on the world and the power she has exerted. Greta shows us that <b>being a girl or being a
-        youth doesn't invalidate our ideas</b>, and that passion and that drive to seek change in the world
-        will be rewarded with promising results. She can be reached on Instagram through her account
-        @gretathunberg</p>
+        Trump's tweet regarding Greta suggesting that she needs to "chill and watch a good old-fashioned movie
+        with a friend," himsef and many political leaders in our society view her as a danger to society ,
+        likely because of the impact she has had on the world and the power she has exerted. Greta shows us that
+        <b>being a girl or being a youth doesn't invalidate our ideas</b>, and that passion and that drive to seek
+        change in the worldwill be rewarded with promising results. She can be reached on Instagram through her
+        account @gretathunberg</p>
         <h3 style="color: indianred;">MARIE CURIE </h3><hr>
         <img style="width: 300px; length: 300px;" src="marie_curie.jpg" alt="A phto of Madame Marie Curie">
         <p>Taking a delve into history, Madame Curie spent her life working with radioactive chemicals, and
@@ -97,14 +124,27 @@
         the way for what true leadership looks like, royalty or not. May she rest in peace.</p>
     </body> <hr><hr>
     <div style="font-family: times new roman; text-align: center;">
-        <form>
-            <p>Do you have any more ideas for influential female leaders that you would like to see up on my gallery? Fill out the form, and I'll be able to see your responses!</p><input type="Leader name">
-            <input type="submit" value="Submit Form">
-            
-            <!-- Input form... -->
-            <!-- Change the format of these people to be article style -->
+            <p> Fill the form to see more influential leaders up on my gallery</p>
+
+            <p>Influential Woman</p><input type="Leader name">
+            <! -- HTML Form Code Starts here   -->
 
 
-        </form>
+             <form method="post" name="suggestionform" action="form.php">
+                <p>
+                    <label for='name'> Enter name: </label><br>
+                    <input type="text" name="name">
+                </p>
+
+                <p>
+                    <label for="email"> Enter email address: </label><br>
+                    <input type="text" name="email">
+                </p>
+                <button class="button button1">Submit</button>
+
+            </form>
+
+
     </div>
+
 </html>
