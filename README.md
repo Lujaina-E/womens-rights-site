@@ -10,6 +10,6 @@ TODO
 - edit all other pages like the founder page ... better styling
 - get a CSS file rather than styling inline
 - gallery form works... (http error 405)
-- Placing a logo in the header
+- Placing a logo in the header  (copy over from founder page.
 - Shove in a bit of JS   ===> NAVBAR (decent design)
 - Fix error 404 when going back to main on github pages
