@@ -12,3 +12,4 @@ TODO
 - gallery form works... (http error 405)
 - Placing a logo in the header
 - Shove in a bit of JS   ===> NAVBAR (decent design)
+- Fix error 404 when going back to main on github pages
