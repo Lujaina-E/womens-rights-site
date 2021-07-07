@@ -1,0 +1,23 @@
+            body {
+                font-family: Times New Roman;
+                text-align: center;
+                background-color: lavenderblush;
+            }
+            
+            #pageTitle {
+                 color: mediumslateblue;
+            }
+            
+            #photoID {
+                width: 300px;
+                length: 300px;
+            }
+            
+            .heads{
+                color:darkolivegreen;
+            }
+            
+            body > i{
+                font-size: 33px;
+                color: teal;
+            }
