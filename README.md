@@ -8,8 +8,7 @@ See it here
 TODO
 - change the design of gallery to reflect articles, each witha specific border and in an orderly scroll fashion
 - edit all other pages like the founder page ... better styling
-- get a CSS file rather than styling inline
+- get a CSS file rather than styling inline (today)
 - gallery form works... (http error 405)
-- Placing a logo in the header  (copy over from founder page.
-- Shove in a bit of JS   ===> NAVBAR (decent design)
+- Shove in a bit of JS   ===> NAVBAR (decent design)  (today)
 - Fix error 404 when going back to main on github pages
