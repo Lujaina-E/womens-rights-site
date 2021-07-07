@@ -10,5 +10,5 @@ TODO
 - edit all other pages like the founder page ... better styling
 - get a CSS file rather than styling inline (today)
 - gallery form works... (http error 405)
-- Shove in a bit of JS   ===> NAVBAR (decent design)  (today)
+- Shove in a bit of JS   ===> NAVBAR (decent design)
 - nicer presentation of pages from index (today)
