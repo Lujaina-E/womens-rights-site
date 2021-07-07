@@ -11,4 +11,3 @@ TODO
 - get a CSS file rather than styling inline (today)
 - gallery form works... (http error 405)
 - Shove in a bit of JS   ===> NAVBAR (decent design)  (today)
-- Fix error 404 when going back to main on github pages
