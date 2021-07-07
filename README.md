@@ -11,3 +11,4 @@ TODO
 - get a CSS file rather than styling inline (today)
 - gallery form works... (http error 405)
 - Shove in a bit of JS   ===> NAVBAR (decent design)  (today)
+- nicer presentation of pages from index (today)
