@@ -1,0 +1,36 @@
+            h4{
+               text-align: left;
+            }
+            
+            body{
+                background-color: oldlace;  /* Replace this with the proper background */
+                text-align: center;
+            }
+            
+            h1{
+                color: skyblue;
+            }
+            
+            #womenPic{
+                width: 450px;
+                length: 450px;
+            }
+            
+            .header{
+                color: lightseagreen;
+            }
+            
+            body > p {
+                color: darkslategray;
+            }
+            
+            #Footer_tag{
+                colour:black;
+                font: timesNewRoman;
+                text-align: center;
+            }
+            
+            #Footer_pic{
+                width: 50px;
+                length: 50px;
+            }
