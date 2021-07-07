@@ -3,38 +3,56 @@
     <head>
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Dancing+Script&display=swap');
-        body{
-            style=text-align: center;
-            font-family: Times New Roman; 
-            background-image: url('Pictures/backdrop.jpg');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover; 
-            background-attachment: fixed;
-            }
-        body > h1 {
-            style=color: #410d00;
+        
+            body{
+                style=text-align: center;
+                font-family: Times New Roman; 
+                background-image: url('Pictures/backdrop.jpg');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover; 
+                background-attachment: fixed;
             }
             
-        #MyName{
-            font-family: 'Dancing Script', cursive;
-            color:#c1ebea;
+            body > h1 {
+                style=color: #410d00;
+            }
+            
+            #MyName{
+                font-family: 'Dancing Script', cursive;
+                color:#c1ebea;
+            }
+         
+            #myPic{
+                width: 250px; 
+                length: 250px;
+            }
+            
+            section > h2{
+                color: maroon;
+            }
+            
+            section > p{
+                font-size: 20px;
+                color: darkslategray;
+            }
+            
+            .photography.photo1{
+                padding-left: 85px;
+                 float: left;
+                 height: 15em;
+                 margin-right: 1%;
+                 margin-bottom: 0.5em;
+            }
+            
+            .photography{
+                float: left;
+                height: 15em;
+                margin-right: 1%;
+                margin-bottom: 0.5em;
             }
             
             
-        #myPic{
-            width: 250px; 
-            length: 250px;
-            }
-            
-        section > h2{
-            color: maroon;
-            }
-            
-        section > p{
-            font-size: 20px;
-            color: darkslategray;
-            }
             
         </style>
         <title>Founder</title
@@ -90,12 +108,10 @@ breaking stereotypes around women. </h3>
 </i></p>
 </section>
         
-        <!-- stop here for css editting.  -->
-
-    <img src="Pictures/sp1.jpg" alt="A picture of my work. You are experiencing a loading error, please stand by and check connection" style="padding-left: 85px; float: left; height: 15em; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="Pictures/sp2.jpg" alt="Please stand by and check connection" style="float: left; height: 15em; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="Pictures/sp3.jpg" alt="Please stand by and check connection" style="float: left; height: 15em; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="Pictures/sp4.jpg" alt="Please stand by and check connection" style="float: left; height: 15em; margin-right: 1%; margin-bottom: 0.5em;">
+    <img class="photography, photo1" src="Pictures/sp1.jpg" alt="A picture of my work. You are experiencing a loading error, please stand by and check connection">
+    <img class="photography" src="Pictures/sp2.jpg" alt="Please stand by and check connection">
+    <img class="photography" src="Pictures/sp3.jpg" alt="Please stand by and check connection">
+    <img class="photography" src="Pictures/sp4.jpg" alt="Please stand by and check connection">
 
 <!-- <p>Cairo, Egypt</p>  -->
 <!-- <p>WHitefish, USA</p> -->
@@ -103,7 +119,7 @@ breaking stereotypes around women. </h3>
 <!-- <p>Tofino, Tofino</p> -->
 
 
-<p style="clear: both;">
+<!-- <p style="clear: both;"> -->
 <p style="font-size: 16px;">The first photo was taken in Cairo, Egypt, at the sunset form a neighbourhood compound. It captures the subtly calming and cozy energy. I especially like this
 photo because as a country in the Middle East, it is often overlooked as a contribution to global poverty. I think it is important to capture the life that Egypt actually is, and to, again,
 provide some perspective from a seemingly normal moment in the peaceful evening to those who seem to be fixated on their image of my home country. </p>
