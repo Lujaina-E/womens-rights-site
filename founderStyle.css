@@ -1,15 +1,14 @@
             body{
-                style=text-align: center;
+                text-align: center;
                 font-family: Times New Roman; 
                 background-image: url('Pictures/backdrop.jpg');
                 background-repeat: no-repeat;
                 background-position: center center;
-                background-size: cover; 
-                background-attachment: fixed;
+                background-size: cover; background-attachment: fixed;
             }
             
             body > h1 {
-                style=color: #410d00;
+                color: #410d00;
             }
             
             #MyName{
