@@ -1,0 +1,54 @@
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Dancing+Script&display=swap');
+        
+            body{
+                style=text-align: center;
+                font-family: Times New Roman; 
+                background-image: url('Pictures/backdrop.jpg');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover; 
+                background-attachment: fixed;
+            }
+            
+            body > h1 {
+                style=color: #410d00;
+            }
+            
+            #MyName{
+                font-family: 'Dancing Script', cursive;
+                color:#c1ebea;
+            }
+         
+            #myPic{
+                width: 250px; 
+                length: 250px;
+            }
+            
+            section > h2{
+                color: maroon;
+            }
+            
+            section > p{
+                font-size: 20px;
+                color: darkslategray;
+            }
+            
+            .photography.photo1{
+                padding-left: 85px;
+                 float: left;
+                 height: 15em;
+                 margin-right: 1%;
+                 margin-bottom: 0.5em;
+            }
+            
+            .photography{
+                float: left;
+                height: 15em;
+                margin-right: 1%;
+                margin-bottom: 0.5em;
+            }
+            
+            
+            
+</style>
