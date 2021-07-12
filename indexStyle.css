@@ -20,3 +20,48 @@ body > h1{
 body > main > h4{
     color: midnightblue;
 }
+
+body h2{
+  color: #f00;
+}
+
+body >  footer > center{
+  background:#fff;
+}
+
+#site-title{
+  /* border: 1px solid #000; */
+  border-top: none;
+  border-bottom: 2px solid #000;
+
+}
+
+#top-stories{
+
+  width: 1000px;
+  margin: auto; 
+  margin-top: 20px;
+}
+
+article{
+  width: 301px;
+  display:inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0px;
+}
+
+article img{
+  max-width: 100%;
+}
+
+.article-image{
+  height: 200px;
+  widith: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.article-info{
+  font-style: italic;
+}
