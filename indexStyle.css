@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 body {
-    font-family: 'Times New Roman', cursive;
+    /*text-align: center; */ 
+    background-image: url('Pictures/backdrop.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
+    background-attachment: fixed;
     /*potenitally irrelevant text-align: center;*/
-    background: #B39FC2;
     font-family: 'Viaoda Libre', sans-serif;
     font-weight: 300 !important
     margin: 0px;
@@ -23,12 +27,8 @@ body > h1{
     color: rosybrown;
 }
 
-body > main > h4{
-    color: midnightblue;
-}
-
 body h2{
-  color: #f00;
+  color: maroon;
 }
 
 body >  footer > center{
@@ -37,9 +37,14 @@ body >  footer > center{
 
 #site-title{
   /* border: 1px solid #000; */
+  font-family: 'Akaya Kanadaka', cursive;
   border-top: none;
   border-bottom: 2px solid #000;
 
+}
+
+#site-subtitle{
+    color: #3b3b3b;
 }
 
 #top-stories{
