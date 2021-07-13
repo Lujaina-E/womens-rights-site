@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body {
+
+
+}
+
+h1{
+
+  color:#0f0;
+  margin: 0px ;
+}
+
+
+
+
+
+
 
 body {
     font-family: 'Times New Roman', cursive;
-    text-align: center;
-    background-color: linen;
+    /*potenitally irrelevant text-align: center;*/
+    background: #B39FC2;
+    font-family: 'Viaoda Libre', sans-serif;
+    font-weight: 300 !important
+    margin: 0px;
 }
 
 body > h1{
     color: darkslateblue;
+    color:#0f0;
+    margin: 0px ;
     font-family: 'Akaya Kanadaka', cursive;
 }
 
