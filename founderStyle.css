@@ -45,3 +45,6 @@
                 margin-bottom: 0.5em;
             }
             
+            #descriptors{
+                list-style-type: none;                 
+            }
