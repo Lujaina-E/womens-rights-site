@@ -8,7 +8,7 @@ body {
     background-size: cover; 
     background-attachment: fixed;
     font-family: 'Viaoda Libre', sans-serif;
-    font-weight: 300 !important
+    font-weight: 300 !important;
     margin: 0px;
 }
 
@@ -59,15 +59,14 @@ article{
   border: 1px solid #000;
   padding: 10px;
   margin: 0px;
+  margin-bottom: 5px;
 }
 
-article img{
-  max-width: 100%;
-}
+
 
 .article-image{
   height: 200px;
-  widith: 100%;
+  max-width: 100%;
   background-size: cover !important;
   background-position: center !important;
 }
