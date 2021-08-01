@@ -12,13 +12,6 @@ body {
     margin: 0px;
 }
 
-body > h1{
-    color: darkslateblue;
-    color:#0f0;
-    margin: 0px ;
-    font-family: 'Akaya Kanadaka', cursive;
-}
-
 #subtitle{
     color: maroon;
 }
@@ -34,12 +27,16 @@ body >  footer > center{
   background:#fff;
 }
 
-#site-title{
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: rgb(215, 209, 255);
   border: 1px solid #000;
-  font-family: 'Akaya Kanadaka', cursive;
   border-top: none;
   border-bottom: 2px solid #000;
-
+  margin: 0px ;
+  font-family: 'Akaya Kanadaka', cursive;
 }
 
 #site-subtitle{
@@ -62,7 +59,20 @@ article{
   margin-bottom: 5px;
 }
 
+article:active{
+  opacity: .7;
+}
 
+article:hover{
+  box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 3);
+}
+
+.article-image:focus{
+  border-top-left-radius: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
 
 .article-image{
   height: 200px;
@@ -73,4 +83,38 @@ article{
 
 .article-info{
   font-style: italic;
+}
+
+.page-content{
+  padding: 16px;
+}
+
+a{
+  color:#000;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:visited{
+  font-weight: normal;
+}
+
+a:hover{
+  color:rgb(116, 238, 197);
+  text-decoration: none;
+}
+
+a.focus{
+  text-decoration:underline overline rgb(88, 88, 90);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .page-content {
+  padding-top: 102px;
 }
