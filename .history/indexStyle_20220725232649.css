@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body {
+    text-align: center; 
+    background-image: url('Pictures/backdrop.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
+    background-attachment: fixed;
+    font-family: 'Viaoda Libre', sans-serif;
+    font-weight: 300 !important;
+    margin: 0px;
+}
+
+#subtitle{
+    color: maroon;
+}
+#intention{
+    color: rosybrown;
+}
+
+body h2{
+  color: maroon;
+}
+
+body >  footer > center{
+  background:#fff;
+}
+
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: rgb(215, 209, 255);
+  border: 1px solid #000;
+  border-top: none;
+  border-bottom: 2px solid #000;
+  margin: 0px ;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+#site-subtitle{
+    color: #3b3b3b;
+}
+
+#top-stories{
+
+  width: 1000px;
+  margin: auto; 
+  margin-top: 20px;
+}
+
+article{
+  width: 301px;
+  display:inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+article:active{
+  opacity: .7;
+}
+
+article:hover{
+  box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 3);
+}
+
+.article-image:focus{
+  border-top-left-radius: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.article-image{
+  height: 200px;
+  max-width: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.article-info{
+  font-style: italic;
+}
+
+.page-content{
+  padding: 16px;
+}
+
+a{
+  color:#000;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:visited{
+  font-weight: normal;
+}
+
+a:hover{
+  color:rgb(126, 126, 126);
+  text-decoration: none;
+}
+
+a.focus{
+  text-decoration:underline overline rgb(88, 88, 90);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .page-content {
+  padding-top: 102px;
+}
