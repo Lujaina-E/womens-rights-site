@@ -1,6 +1,8 @@
 # womens-rights-site
 
-#what I learned
+accessible on the main branch
+
+# what I learned
 A bunch of trinket features about web design
 responsive web design
 using git
